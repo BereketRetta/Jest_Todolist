@@ -4,7 +4,6 @@ import { updateTodo, removeComleted } from './modules/update.js';
 import renderList from './modules/render-list.js';
 
 const crudTodos = () => {
-  /*  EVENT LISTENERS add */
   const addBtn = document.getElementById('add-btn');
   const addInput = document.getElementById('todo-input');
   addBtn.addEventListener('click', (event) => {
@@ -14,7 +13,6 @@ const crudTodos = () => {
     renderList();
   });
 
-  /*  EVENT LISTENERS remove */
   const todoList = document.getElementById('todo-list');
   todoList.addEventListener('click', (event) => {
     const deleteBtn = event.target;
@@ -25,7 +23,6 @@ const crudTodos = () => {
     }
   });
 
-  /*  EVENT LISTENERS edit input field */
   todoList.addEventListener('click', (event) => {
     const inputField = event.target;
     const listItem = (event.path[1]);
@@ -75,7 +72,6 @@ const crudTodos = () => {
     }
   });
 
-  /*  EVENT LISTENERS delete completed todos */
   const removeCompleted = document.getElementById('remove-completed');
   removeCompleted.addEventListener('click', () => {
     removeComleted();
