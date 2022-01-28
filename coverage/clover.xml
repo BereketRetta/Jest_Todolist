@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1643341694216" clover="3.2.0">
-  <project timestamp="1643341694216" name="All files">
+<coverage generated="1643341728544" clover="3.2.0">
+  <project timestamp="1643341728545" name="All files">
     <metrics statements="45" coveredstatements="45" conditionals="10" coveredconditionals="8" methods="13" coveredmethods="13" elements="68" coveredelements="66" complexity="0" loc="45" ncloc="45" packages="1" files="5" classes="5"/>
     <file name="class-todo.js" path="/Users/etmsmac/Desktop/Jest_Todolist/src/modules/class-todo.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
